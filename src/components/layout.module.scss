@@ -1,0 +1,81 @@
+@charset "utf-8";
+@import "./variable-declare.scss";
+// scss本文
+.bodystyle {
+  background-color: $gray600;
+  color: $gray50;
+}
+.center {
+  margin-top: 40px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+// ヘッダー
+.headerstyle {
+  background-color: $blue-gray900;
+  box-shadow: 4px 4px $black1000 4px;
+    color: $gray50;
+}
+
+// アイコンカラム
+.iconbarstyle {
+  background-color: $gray900;
+  height: 1080px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  box-shadow: 4px 4px $black1000 4px;
+  text-align: center;
+}
+.icontitle {
+  font-size: 18px;
+  background-color: $blue-gray900;
+  padding: 4px 8px;
+  box-shadow: 4px 4px $black1000 4px;
+}
+.iconlink {
+  text-decoration: none;
+  color: $light-blue400;
+}
+// メインカラム
+.mainbarstyle {
+  background-color: $gray900;
+  color: $gray50;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  box-shadow: 4px 4px $black1000 4px;
+  padding: 8px 16px 8px 16px;
+}
+
+// サブ＆プロフィールカラム
+.subbarstyle {
+  background-color: $gray900;
+  height: 1080px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  box-shadow: 4px 4px $black1000 4px;
+  text-align: center;
+}
+.profileImg {
+  border-radius: 100%;
+  margin-bottom: 8px;
+  box-shadow: 4px 4px $black1000 4px;
+}
+.subbarprofile {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 26px;
+  background-color: $blue-gray900;
+  padding: 8px auto;
+  box-shadow: 4px 4px $black1000 4px;
+}
+.subbartext {
+  margin-bottom: 8px;
+}
+.subbarcardmargin {
+  margin: 8px 8px 16px 8px;
+}
+.divhight {
+  height: 16px;
+  margin: 0px;
+  padding: 0px;
+}
